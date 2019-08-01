@@ -48,8 +48,9 @@
   var increment = 0;
   var drops = "";
   var backDrops = "";
+  var test =0;
 
-  while (increment < 100) {
+  while (increment < 100) { 
     //couple random numbers to use for various randomizations
     //random number between 98 and 1
     var randoHundo = (Math.floor(Math.random() * (98 - 1 + 1) + 1));
